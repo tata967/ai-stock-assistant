@@ -43,4 +43,7 @@ if __name__ == "__main__":
     if alerts:
         message = "\n".join(alerts)
         send_email(message)
+print("AI Assistant is up and running 🚀")
+while True:
+    pass  # this just keeps it alive
 
